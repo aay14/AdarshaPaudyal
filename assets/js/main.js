@@ -1,3 +1,6 @@
+function websiteVisits(response) {
+  document.querySelector("#visits").textContent = response.value;
+}
 /*===== MENU SHOW =====*/ 
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
