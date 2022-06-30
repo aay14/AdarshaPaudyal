@@ -11,7 +11,12 @@
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
     <title>Adarsha Paudyal</title>
-</head>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script async
+        src="https://api.countapi.xyz/hit/aadarshapaudyal.com.np/ceb240a5-03e4-467b-903c-f4839a78469e?callback=websiteVisits">
+        </script>
+    <script src="https://kit.fontawesome.com/1a5ff54639.js" crossorigin="anonymous"></script>
 
 <body>
     <!--===== HEADER =====-->
@@ -51,6 +56,7 @@
                         class='bx bxl-youtube'></i></a>
                 <a href="" class="home__social-icon"><i class='bx bxl-facebook'></i></a>
                 <a href="https://github.com/Aap59" class="home__social-icon"><i class='bx bxl-github'></i></a>
+
             </div>
 
             <div class="home__img">
@@ -191,15 +197,17 @@
             <h2 class="section-title">Contact</h2>
 
             <div class="contact__container bd-grid">
-                
-                 <form action="https://formspree.io/f/xnqwyywy" method="POST" class="contact__form">
+                <form action="https://formspree.io/f/xnqwyywy" method="POST" class="contact__form">
                     <input id="nam" type="text" name="Name" placeholder="Name" class="contact__input">
                     <input id="mail" type="mail" name="Email" placeholder="Email" class="contact__input">
                     <textarea id="msg" cols="0" name="Message" rows="10" class="contact__input"></textarea>
                     <!-- <input type="Submit" class="contact__button button">-->
                     <button type="submit" class="contact__button button">Send</button>
                 </form>
+
+
             </div>
+
         </section>
     </main>
 
@@ -214,7 +222,9 @@
             <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
             <a href="https://github.com/Aap59" class="footer__icon"><i class='bx bxl-github'></i></a>
         </div>
-        <p class="footer__copy">&#169; All rigths reserved.</p>
+        <i class="fa-solid fa-eye"><span id="visits"></span></i>
+        <p class="footer__copy">&#169; All rigths reserved.
+        </p>
     </footer>
 
 
@@ -223,6 +233,8 @@
 
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
+
+
 </body>
 
 </html>
